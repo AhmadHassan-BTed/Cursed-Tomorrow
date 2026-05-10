@@ -1,3 +1,0 @@
-C:\Users\HP\Desktop\Cursed Tomorrow\Debug\Cursed Tomorrow.vcxproj.CopyComplete
-C:\Users\HP\Desktop\Cursed Tomorrow\Debug\Cursed Tomorrow.exe
-C:\Users\HP\Desktop\Cursed Tomorrow\Debug\raylib.dll

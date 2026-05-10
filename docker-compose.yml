@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  builder:
+    build: .
+    volumes:
+      - .:/app
+    command: ["cmake", "--build", "build"]

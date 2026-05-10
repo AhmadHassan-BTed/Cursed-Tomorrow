@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for C++
+*.cpp text
+*.h text
+*.hpp text
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+
+# Custom for Shell
+*.sh text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+*.ico binary
