@@ -38,5 +38,5 @@ install(DIRECTORY assets DESTINATION bin)
 
 enable_testing()
 add_executable(unit_tests src/tests/test_main.cpp)
-target_link_libraries(unit_tests)
+target_include_directories(unit_tests PRIVATE include)
 add_test(NAME AllTests COMMAND unit_tests)

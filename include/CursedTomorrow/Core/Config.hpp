@@ -14,6 +14,7 @@ inline const std::string WindowTitle = "...Cursed---Tomorrow... by B-Ted";
 inline constexpr float DefaultSpeed = 5.0f;
 inline constexpr float StickManHeight = 102.0f;
 inline constexpr float StickManWidth = 60.0f;
+inline constexpr float StickManCollisionWidth = 65.0f;
 inline constexpr float Gravity = 6.0f;
 inline constexpr float JumpHeight = 13.0f;
 inline constexpr float JumpDelay = 28.0f;

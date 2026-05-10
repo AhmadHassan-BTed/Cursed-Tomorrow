@@ -11,11 +11,11 @@ enum class GameState {
     MainScreen,
     LevelSelect,
     Credits,
-    Level1,
-    Level2,
-    Level3,
-    Level4,
-    Level5,
+    Level1, AfterLevel1,
+    Level2, AfterLevel2,
+    Level3, AfterLevel3,
+    Level4, AfterLevel4,
+    Level5, AfterLevel5,
     Level6,
     GameEnd,
     YouDied
@@ -34,12 +34,15 @@ private:
     void UpdateLevelLogic();
     void Draw();
     void HandleInput();
+    void CheckCollisions();
+    void ResetLevel();
 
     void DrawMainScreen();
     void DrawLevelSelect();
     void DrawCredits();
     void DrawLevelTemplate();
     void DrawYouDied();
+    void DrawGameEnd();
 
     GameState currentState;
     Entities::Character player;
@@ -48,9 +51,18 @@ private:
     float buttonPositionY;
     bool logMove;
     bool logMoveOnlyOnce;
+    bool warningScreen;
+    bool level1Start;
+    bool level5Start;
+    bool showWelcome;
+    bool alive;
     int delayMeter;
     float variable;
     int commonIterator;
+    float spaceLayers;
+    float pingMeter;
+    float tempPositionx;
+    float tempPositiony;
 };
 
 }
