@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕯️ Cursed Tomorrow
+#  Cursed Tomorrow
 ### A platforming descent into the atmospheric unknown.
 
 [![CI](https://img.shields.io/github/actions/workflow/status/AhmadHassan-BTed/Cursed-Tomorrow/ci.yml?branch=main&style=flat-square&logo=github)](https://github.com/AhmadHassan-BTed/Cursed-Tomorrow/actions)
@@ -17,7 +17,7 @@
 
 </div>
 
-## 🌑 Overview
+##  Overview
 
 The core of *Cursed Tomorrow* lies in its simplicity and the weight of its atmosphere. Every movement, jump, and collision is tuned to resonate with the player's experience of navigating a world that feels both fragile and hostile.
 
@@ -28,7 +28,7 @@ The core of *Cursed Tomorrow* lies in its simplicity and the weight of its atmos
 
 ---
 
-## 🖼️ Visual Showcase
+##  Visual Showcase
 
 <div align="center">
 
@@ -52,7 +52,7 @@ The core of *Cursed Tomorrow* lies in its simplicity and the weight of its atmos
 
 ---
 
-## 🏗️ Architecture Documentation
+##  Architecture Documentation
 
 The project architecture prioritizes decoupling and clear ownership. It is built to scale from a simple prototype to a complex production-grade game.
 
@@ -88,7 +88,7 @@ The interaction between modules is strictly managed through the `CursedTomorrow`
 
 ---
 
-## ⚙️ Internal Systems
+##  Internal Systems
 
 ### Request & Data Flow
 The data flow follows a strict unidirectional pattern during the update phase to ensure deterministic behavior.
@@ -131,7 +131,7 @@ sequenceDiagram
 
 ---
 
-## 🛠️ Development Workflow
+##  Development Workflow
 
 The development process is designed to be contributor-friendly while maintaining high engineering standards.
 
@@ -169,7 +169,7 @@ graph LR
 
 ---
 
-## 📚 Academic Resources
+##  Academic Resources
 
 This project is supported by extensive documentation and presentation materials detailing its design and theoretical foundations.
 
@@ -180,7 +180,7 @@ This project is supported by extensive documentation and presentation materials 
 
 ---
 
-## 🌑 Credits & Vision
+##  Credits & Vision
 
 This project is a solo endeavor by **Ahmad Hassan (B-Ted)**. It represents a commitment to clean code, intentional design, and the pursuit of digital atmosphere.
 
